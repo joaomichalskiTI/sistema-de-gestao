@@ -1,17 +1,19 @@
 import Image from 'next/image';
-
+import React from 'react';
 
 export default function Home() {
   return (
-    <div className='min-h-screen w-full bg-black flex  items-center flex-col justify-center'>
-      <div className=' '>
+  <div className="ola min-h-screen w-full bg-black flex  items-center justify-center bg-[url('/espaço.jpg')]">
+   <main className='flex flex-col justify-center items-center '>
+      <div className=''>
         <Image
+          alt='oi'
           src="/world.gif"
           width={100}
-          height={100}
+          height={100}  
         />
       </div>
-      <section className='flex-initial h-80 w-1/4  mt-10'>
+      <section className='flex-initial h-80 w-full  mt-10 '>
         <div className=' w-full flex justify-center mt-3 font-thin text-2xl'>
           <h1 className=' text-white '>WELCOME</h1>
         </div>
@@ -29,6 +31,7 @@ export default function Home() {
           <button className=' text-white font-thin hover:text-zinc-400 active:text-white'>CREATE ACCOUNT</button>
         </div>
       </section>
-    </div>
+    </main>
+  </div>
   )
 }
