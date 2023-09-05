@@ -19,7 +19,7 @@ export default function create() {
           <input className="h-8  " type="password" />
           <div className=" flex justify-center w-full flex-col">
             <hr className="w-full mt-4" />
-            <button className="font-thin text-white hover:text-zinc-400 active:text-white mt-3">CREATE ACOUNT</button>
+            <button className="font-thin text-white hover:text-zinc-400 active:text-white mt-3">GET STARTED</button>
           </div>
         </form>
       </main>
